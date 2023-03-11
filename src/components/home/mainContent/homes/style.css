@@ -1,0 +1,32 @@
+main .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.mainContent {
+    width: 75%;
+    background-color: cadetblue;
+}
+
+.sideContent {
+    width: 23%;
+    background: rebeccapurple;
+}
+
+@media screen and (max-witdh: 768px) {
+    main .container {
+        flex-direction: column;
+    }
+
+    .mainContent {
+        width: 75%;
+        background-color: cadetblue;
+    }
+
+    .sideContent {
+        width: 25%;
+        background: rebeccapurple;
+    }
+
+}
